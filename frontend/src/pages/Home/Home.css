@@ -1,0 +1,184 @@
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.home-container .btn {
+  background-color: white;
+  color: #be4444;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-container .btn:hover {
+  background-color: #f5c6c6;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.logout-button {
+  background-color: #be4444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #f5c6c6;
+}
+
+.top-left {
+  position: absolute;
+  background-color: #be4444;
+  top: 20px;
+  left: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture-container {
+  display: flex;
+  align-items: center;
+  margin-left: -120px;
+}
+
+.profile-picture {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-picture-container h5 {
+  margin-left: -110px;
+  margin-top: 200px;
+  color: white;
+}
+
+.story-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.story-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+.story-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.story-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.story-description .ql-editor {
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.story-card p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.delete-btn:hover {
+  color: #4ea62b;
+}
+
+.story-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  background-color: #be4444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #f5c6c6;
+}
+
+.sorting-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.sorting-container select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sorting-container select:focus {
+  outline: none;
+  border-color: #be4444;
+}
